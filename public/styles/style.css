@@ -1,0 +1,362 @@
+
+
+  
+
+.mainBody{
+    
+    
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+
+
+.svgImage{
+    fill: none; 
+    stroke: none;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.headingDiv{
+    vertical-align: middle;
+    align-items: flex-start;
+    position: relative;
+    padding-top:10%;
+    padding-bottom:10%;
+    text-align: center;
+    display: inline-block;
+    
+    
+
+}
+
+.heading{
+    text-align: center;
+    
+    
+    color: maroon;
+    vertical-align: middle;
+    font-size: 400%;
+    font-weight: 900;
+    font-family: 'Aldrich';   
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    
+
+}
+
+.subheading{
+    font-family: 'Poiret One';
+    
+    color: black;
+    
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150%;
+    font-weight: bolder;
+
+}
+
+
+.whoarewe{
+    
+    display: inline-block;
+    background-color: rgba(64, 155, 64, 0.884);
+    color: white;
+    margin:0%;
+    /*height: 30vh;*/
+    min-height: 30vh;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 5%;
+    
+    
+
+}
+
+.about{
+    
+    text-align: center;
+    width: 50%;
+}
+
+.juniorCategory{
+    display: inline-block;
+    margin:0%;
+    
+    color: white;
+    background-image: linear-gradient(rgba(182, 126, 12,0.8),rgba(230, 126, 12,0.8)),url(/images/junior_category_background_pexels.jpg);
+    min-height: 100vh;
+    text-align: center;
+    
+    
+
+}
+.seniorCategory{
+
+    display: inline-block;
+    
+    background-image: linear-gradient(rgba(200,0,0,0.6),rgba(255,10,10,0.6)),url(/images/senior_category_background_pexels.jpg);
+
+    color: white;
+    margin: 0%;
+    min-height: 100vh;
+    text-align: center;
+    
+  
+
+}
+
+.faq{
+    display: inline-block;
+    color: white;
+    margin: 0%;
+    min-height: 100vh;
+    text-align: center;
+    
+    background-image: linear-gradient(rgba(191, 196, 15,0.8),rgba(241, 196, 15,0.8)),url(/images/faq_background.jpg);
+    
+}
+
+.forming{
+    display: inline-block;
+    min-height: 100vh;
+    margin: 0%;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    background-image: linear-gradient(rgba(127, 140, 141,0.7),rgba(149, 165, 166,1.0)),url(/images/form_background_pexels.jpg);
+}
+
+
+ .juniorCategory, .seniorCategory, .faq, .forming {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.juniorCategoryInfoLead{
+    font-weight: bold;
+    width: 70%;
+    padding:5px;
+    
+    background-color: rgba(182, 91, 12,0.6);
+    text-align: left;
+}
+
+.juniorCategoryInfoLead-30{
+    font-weight: bold;
+    width: 30%;
+    padding:5px;
+    
+    background-color: rgba(182, 91, 12,0.6);
+    text-align: left;
+}
+
+.seniorCategoryInfoLead{
+    font-weight: bold;
+    width: 70%;
+    padding:5px;
+    
+    background-color: rgba(210, 10, 11,0.4);
+    text-align: left;
+}
+
+.seniorCategoryInfoLead-30{
+    font-weight: bold;
+    width: 30%;
+    padding:5px;
+    
+    background-color: rgba(250, 10, 11,0.4);
+    text-align: left;
+}
+
+.card .card-header{
+    font-weight: 400;
+    background-color: rgba(191, 196, 15,0.8);
+    color:white;
+    text-align: left;
+    
+}
+
+.qColor{
+    color: white;
+}
+
+.faqBody{
+    background-color: rgba(191,196,15,0.8);
+    text-align: left;
+}
+
+
+
+
+input[type="text"]:-moz-read-write,
+input[type="text"]:focus:-moz-read-write,
+input[type="email"]:-moz-read-write,
+input[type="email"]:focus:-moz-read-write,
+input[type="tel"]:-moz-read-write,
+input[type="tel"]:focus:-moz-read-write  {
+    
+    outline: none;
+    box-shadow:none !important;
+    padding:2%;
+    letter-spacing: 1px;
+    background:transparent;
+    
+    
+    border: none;
+    border-radius: 0%;
+    color: white;
+
+}
+
+
+input[type="text"]:read-write, 
+input[type="text"]:focus:read-write,
+input[type="email"]:read-write,
+input[type="email"]:focus:read-write,
+input[type="tel"]:read-write,
+input[type="tel"]:focus:read-write {
+    
+    outline: none;
+    box-shadow:none !important;
+    padding:2%;
+    letter-spacing: 1px;
+    background: transparent;
+      
+    border:none;
+    border-radius:0%;
+    color: white;
+
+}
+
+textarea:read-write,textarea:focus:read-write{
+    outline: none;
+   
+    letter-spacing: 1px;
+box-shadow:none !important;
+
+    border-color: white;
+    
+    background-color: rgba(127, 140, 141,0.8);
+    background:transparent;
+    
+    resize: none;
+    padding: 2%;
+    color:white; 
+}
+
+textarea:-moz-read-write, textarea:focus:-moz-read-write{
+    
+    outline: none;
+    box-shadow:none !important;
+    letter-spacing: 1px;
+    border-color: black;
+    
+    background-color: rgba(127, 140, 141,0.8);
+    background: transparent;
+    
+    
+    resize: none;
+    padding: 2%;
+    color:white; 
+}
+
+form .form-control::-webkit-input-placeholder {
+    color:white;
+}
+
+form .form-control::-moz-placeholder {
+    color:white;
+}
+
+form .form-control::-ms-placeholder {
+    color:white;
+}
+
+form .form-control::placeholder {
+    color:white;
+}
+
+.button {
+  
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background: linear-gradient(to right,  white 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-color:white;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+
+.button:hover{
+    
+    background-position:left bottom;
+    color: rgba(127, 140, 141,1.0);
+}
+
+@media only screen and (min-width : 992px) {
+    .queryDiv{
+        border-right: 1px solid white;
+        
+    }
+
+    .title{
+        background-size: cover;
+    }
+
+   
+}
+
+@media only screen and  (max-width:991px){
+
+    .queryDiv{
+        border-bottom: 1px solid white;
+        padding-bottom:10%;
+    }
+    .registrationDiv{
+        margin-top:10%;
+    }
+
+    .title{
+        background-size: contain;
+    }
+}
+
+.title:before{
+    content:"";
+    position:fixed;
+    left: 0;
+    right: 0;
+    background-image:url(/images/probable_sinew_background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display:block;
+    filter: blur(8px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+}
+
+.title{
+    z-index: 0;
+    
+    margin:0;
+
+    padding: 0;
+    
+    
+   
+}
